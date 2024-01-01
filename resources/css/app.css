@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.input-transparent {
+    border : 2px solid #D806DD ;    background: rgba(255, 255, 255, 0.6);
+}
+
+.underline-text {
+    text-decoration: underline;
+}

@@ -1,0 +1,56 @@
+<script setup>
+import { Link } from "@inertiajs/vue3";
+
+</script>
+
+<template>
+    <div>
+        <header
+            class="relative z-50 w-full flex-none text-sm font-semibold leading-6 text-slate-900 shadow-lg"
+        >
+            <nav class="mx-auto max-w-container px-4 sm:px-6 lg:px-8">
+                <div
+                    class="relative flex items-center justify-around py-1 mx-auto"
+                >
+                    <Link :href="route('home')">
+                        <img
+                            src="/image/logo.png"
+                            class="h-24 object-cover mx-auto"
+                            alt=""
+                            width="150"
+                            height="150"
+                        />
+                    </Link>
+                    <div class="flex">
+                        <a href="#" class="text-[16px]">Abonement</a>
+                        <a href="#" class="ml-8 text-[16px]">A porpos</a>
+                        <a href="#" class="ml-8 text-[16px]">Securite</a>
+                    </div>
+                    <div class="flex">
+                        <select
+                            class="appearance-none border-none focus:border-none w-[110px] rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        >
+                            <option value="fr">Français</option>
+                            <option value="en">English</option>
+                            <option value="es">Español</option>
+                            <!-- Ajoutez d'autres options de langue selon vos besoins -->
+                        </select>
+                        <Link
+                            type="button"
+                            :href="route('login')"
+                            class="bg-primary text-white w-[150px] h-[38px] px-5 py-5 rounded-xl mx-3 my-3"
+                            style="padding: 7px 39px"
+                        >
+                            Connexion
+                        </Link>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div
+        >
+            <slot />
+        </div>
+    </div>
+</template>
