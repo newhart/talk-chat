@@ -1,8 +1,8 @@
-# README pour Projet Laravel avec Vue.js
+# README pour Projet Talk Chat
 
 ## Introduction
 
-Ce document est destiné à vous fournir toutes les informations nécessaires pour comprendre et exécuter un projet classique Laravel avec l'intégration de Vue.js. Vous trouverez ici les étapes d'installation, les commandes utiles, ainsi que d'autres informations pertinentes.
+Ce document est destiné à vous fournir toutes les informations nécessaires pour comprendre et exécuter le projet talk chat avec l'intégration de Inertia js en utilisant Vue js. Vous trouverez ici les étapes d'installation, les commandes utiles, ainsi que d'autres informations pertinentes.
 
 ## Prérequis
 
