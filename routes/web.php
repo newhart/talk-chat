@@ -16,8 +16,12 @@ Route::get('/', function () {
     ]);
 })->name('home');
 
-Route::get('redirect/{provider}', [SocialiteController::class , 'redirect'])->name('socialite.redirect');
-Route::get('callback/{provider}', [SocialiteController::class , 'callback'])->name('socialite.callback');
+Route::get('/condition-general', function () {
+    return Inertia::render('Condition');
+})->name('condition');
+
+Route::get('redirect/{provider}', [SocialiteController::class, 'redirect'])->name('socialite.redirect');
+Route::get('callback/{provider}', [SocialiteController::class, 'callback'])->name('socialite.callback');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');

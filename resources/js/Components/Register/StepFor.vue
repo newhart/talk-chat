@@ -1,6 +1,6 @@
 <script setup>
 
-import {Link} from "@inertiajs/vue3";
+import { Link } from "@inertiajs/vue3";
 import Checkbox from "@/Components/Checkbox.vue";
 </script>
 
@@ -29,7 +29,8 @@ import Checkbox from "@/Components/Checkbox.vue";
                 </select>
             </div>
             <div class="flex items-center mx-3">
-                <textarea name="" id="" cols="30" rows="10" class="input-transparent rounded-[15%] w-[85%]" placeholder="Bio">
+                <textarea name="" id="" cols="30" rows="10" class="input-transparent rounded-[15%] w-[85%]"
+                    placeholder="Bio">
                 </textarea>
                 <button class="bg-primary w-[150px] mx-20 text-white rounded-full h-9 text-4xl">
                     <img src="/image/icon/left.png" alt="" class="relative left-1 top-[-40px]">
@@ -38,15 +39,12 @@ import Checkbox from "@/Components/Checkbox.vue";
             <div class="block mt-4 ml-2">
                 <label class="flex items-center">
                     <Checkbox name="remember" class="input-transparent" />
-                    <Link class="ms-2 text-black" style="text-decoration: underline;"
-                    >J'accepte le condition d'utilisations</Link
-                    >
+                    <Link :href="route('condition')" class="ms-2 text-black" style="text-decoration: underline;">
+                    J'accepte le condition d'utilisations</Link>
                 </label>
             </div>
         </form>
     </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
