@@ -1,6 +1,6 @@
 <script setup>
 import GuestLayout from "@/Layouts/GuestLayout.vue";
-import { useForm, Head } from "@inertiajs/vue3";
+import { useForm } from "@inertiajs/vue3";
 import { onMounted, ref } from "vue";
 import StepOne from "@/Components/Register/StepOne.vue";
 import StepTow from "@/Components/Register/StepTow.vue";

@@ -8,6 +8,9 @@ dependencies:
   motion:
     specifier: ^10.17.0
     version: 10.17.0
+  vue-search-select:
+    specifier: ^3.2.0
+    version: 3.2.0
 
 devDependencies:
   '@inertiajs/vue3':
@@ -1472,6 +1475,10 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
+
+  /vue-search-select@3.2.0:
+    resolution: {integrity: sha512-X4FCEocMX3vJ/hJRgAcOG18GFxHHNj2umkZee0Pa4kMemBapma6RyOq7GD25kN/FWAal43IbW6GqiZ9h9y0lyA==}
+    dev: false
 
   /vue@3.4.3:
     resolution: {integrity: sha512-GjN+culMAGv/mUbkIv8zMKItno8npcj5gWlXkSxf1SPTQf8eJ4A+YfHIvQFyL1IfuJcMl3soA7SmN1fRxbf/wA==}

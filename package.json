@@ -18,6 +18,7 @@
         "vue": "^3.2.41"
     },
     "dependencies": {
-        "motion": "^10.17.0"
+        "motion": "^10.17.0",
+        "vue-search-select": "^3.2.0"
     }
 }

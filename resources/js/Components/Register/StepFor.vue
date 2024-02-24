@@ -2,6 +2,9 @@
 
 import { Link } from "@inertiajs/vue3";
 import Checkbox from "@/Components/Checkbox.vue";
+// import "vue-search-select/dist/VueSearchSelect.css"
+// import "vue-search-select/dist/VueSearchSelect.umd.cjs"
+// import "vue-search-select/dist/VueSearchSelect.js"
 </script>
 
 <template>
@@ -16,6 +19,7 @@ import Checkbox from "@/Components/Checkbox.vue";
                 <input type="text" placeholder="Nom" class="input-transparent rounded-full w-[480px]">
             </div>
             <div class="flex items-center gap-2 my-5 mx-3">
+                <vue-search-select></vue-search-select>
                 <select name="" id="" class="input-transparent rounded-full w-[50%]">
                     <option value="default">Ville</option>
                     <option value="default">Mahamasina</option>
